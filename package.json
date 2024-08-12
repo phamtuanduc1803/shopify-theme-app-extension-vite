@@ -1,0 +1,30 @@
+{
+  "name": "just-another-app",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "shopify": "shopify",
+    "build": "shopify app build",
+    "dev": "shopify app dev",
+    "info": "shopify app info",
+    "generate": "shopify app generate",
+    "deploy": "shopify app deploy"
+  },
+  "dependencies": {
+    "@shopify/app": "3.58.2",
+    "@shopify/app-bridge-react": "^4.1.3",
+    "@shopify/cli": "3.59.2",
+    "@shopify/shopify-api": "^10.0.0",
+    "@shopify/shopify-app-remix": "^2.8.2",
+    "@shopify/shopify-app-session-storage-prisma": "^4.0.5",
+    "react": "^18.3.1"
+  },
+  "author": "miguel",
+  "private": true,
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "vite": "^5.3.1",
+    "vite-plugin-shopify": "^3.0.1"
+  }
+}
